@@ -1,0 +1,64 @@
+html{
+    font-size: 10px;
+}
+
+    h1{
+
+        font-size: 5rem;
+    }
+    
+@media ( min-width: 300px) and ( max-width: 500px) {
+body{
+    font-size: 5px;
+    background-color: rgb(218, 185, 185);
+}
+}
+
+   
+@media ( min-width: 501px) and ( max-width: 700px) {
+    body{
+        font-size: 5px;
+        background-color: rgb(175, 171, 185);
+    }
+    }
+   
+@media ( min-width: 701px) and ( max-width: 900px) {
+    body{
+        font-size: 5px;
+        background-color: rgb(164, 183, 194);
+    }
+    } 
+
+    @media ( min-width: 901px) and ( max-width: 1004px) {
+    body{
+        font-size: 5px;
+        background-color: rgb(211, 226, 143);
+    }
+    }
+
+
+
+    .wrapper{
+        border: 2px solid blue;
+    }
+
+    .box1{
+        width: 48%;
+        float: left;
+        background: lightpink;
+        padding: 10px;
+    }
+
+    
+    .box2{
+        width: 48%;
+        float: right;
+        background: lightseagreen;
+        padding: 10px;
+    }
+    .wrapper::after{
+        content: '';
+        clear: both;
+        display: block;
+        text-align: center;
+    }
